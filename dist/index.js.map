@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;;;;;qBAAe,YAAW;AACxB,SAAO,gBAAgB,CAAC;CACzB","file":"index.js","sourcesContent":["export default function() {\n  return 'hello world!!!';\n}\n"]}

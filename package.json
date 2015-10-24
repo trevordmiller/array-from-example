@@ -1,0 +1,20 @@
+{
+  "name": "array-from-example",
+  "version": "1.0.0",
+  "description": "An example of using the ES6 Array.from() to grab DOM nodes and turn them into an array so that we can use methods like Array.filter() and Array.forEach() on them. For an Egghead.io lesson.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevordmiller/array-from-example.git"
+  },
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (www.trevordmiller.com)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:html": "cp src/index.html dist/index.html",
+    "build:js": "babel src/index.js -o dist/index.js -s",
+    "dev": "npm run build:html && npm run build:js -- -w"
+  },
+  "devDependencies": {
+    "babel": "5.x.x"
+  }
+}
